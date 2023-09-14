@@ -1,0 +1,63 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrinterUserFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PrinterFramework",
+        "printedName": "PrinterFramework",
+        "declKind": "Import",
+        "moduleName": "PrinterUserFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrinterUser",
+        "printedName": "PrinterUser",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrinterUser",
+                "printedName": "PrinterUserFramework.PrinterUser",
+                "usr": "s:20PrinterUserFramework0aB0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20PrinterUserFramework0aB0VACycfc",
+            "mangledName": "$s20PrinterUserFramework0aB0VACycfc",
+            "moduleName": "PrinterUserFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20PrinterUserFramework0aB0V",
+        "mangledName": "$s20PrinterUserFramework0aB0V",
+        "moduleName": "PrinterUserFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

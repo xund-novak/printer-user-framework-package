@@ -1,0 +1,11 @@
+framework module PrinterUserFramework {
+  umbrella header "PrinterUserFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module PrinterUserFramework.Swift {
+  header "PrinterUserFramework-Swift.h"
+  requires objc
+}
